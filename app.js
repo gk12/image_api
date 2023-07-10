@@ -3,6 +3,7 @@ const app = express();
 const multer = require("multer");
 const path = require("path");
 
+// multer is used to store image 
 
 const storage = multer.diskStorage({
     destination: './upload/images',
